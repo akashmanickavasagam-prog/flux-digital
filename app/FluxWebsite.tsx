@@ -240,13 +240,13 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
     </h2>
     <div class="rating-box">
       <strong>5.0</strong>
-      <span>⭐⭐⭐⭐⭐ Based on 100+ Reviews</span>
+      <span>⭐⭐⭐⭐⭐ Based on 50+ Reviews</span>
     </div>
   </div>
   <div class="testimonial-grid">
     <div class="testimonial-card">
       <div class="testimonial-top">
-        <div class="testimonial-avatar">P</div>
+        <div class="testimonial-avatar">A</div>
         <div>
           <div class="testimonial-name">AP Portal</div>
           <div class="testimonial-stars">★★★★★ · 1 month ago</div>
@@ -256,7 +256,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
     </div>
     <div class="testimonial-card">
       <div class="testimonial-top">
-        <div class="testimonial-avatar">A</div>
+        <div class="testimonial-avatar">L</div>
         <div>
           <div class="testimonial-name">Lena Promotors</div>
           <div class="testimonial-stars">★★★★★ · 7 weeks ago</div>
@@ -266,7 +266,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
     </div>
     <div class="testimonial-card">
       <div class="testimonial-top">
-        <div class="testimonial-avatar">S</div>
+        <div class="testimonial-avatar">E</div>
         <div>
           <div class="testimonial-name">Eppi Valut</div>
           <div class="testimonial-stars">★★★★★ · 3 months ago</div>
