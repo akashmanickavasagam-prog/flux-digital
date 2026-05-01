@@ -248,7 +248,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
       <div class="testimonial-top">
         <div class="testimonial-avatar">P</div>
         <div>
-          <div class="testimonial-name">Priya Venkatesh</div>
+          <div class="testimonial-name">AP Portal</div>
           <div class="testimonial-stars">★★★★★ · 1 month ago</div>
         </div>
       </div>
@@ -258,8 +258,8 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
       <div class="testimonial-top">
         <div class="testimonial-avatar">A</div>
         <div>
-          <div class="testimonial-name">Amit Patel</div>
-          <div class="testimonial-stars">★★★★★ · 3 weeks ago</div>
+          <div class="testimonial-name">Lena Promotors</div>
+          <div class="testimonial-stars">★★★★★ · 7 weeks ago</div>
         </div>
       </div>
       <div class="testimonial-text">Best digital marketing agency in Bangalore. Their PPC campaigns were highly targeted and we saw immediate ROI with transparent reporting.</div>
@@ -268,8 +268,8 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
       <div class="testimonial-top">
         <div class="testimonial-avatar">S</div>
         <div>
-          <div class="testimonial-name">Sarah Jenkins</div>
-          <div class="testimonial-stars">★★★★★ · 2 months ago</div>
+          <div class="testimonial-name">Eppi Valut</div>
+          <div class="testimonial-stars">★★★★★ · 3 months ago</div>
         </div>
       </div>
       <div class="testimonial-text">Working with Flux was a game changer for our startup. Their content marketing strategy helped us build authority in a competitive market.</div>
