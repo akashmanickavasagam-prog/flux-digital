@@ -1,7 +1,7 @@
 import FluxWebsite from "../FluxWebsite";
 
 export const metadata = {
-  title: "SEO Services in Bangalore | Flux Digital",
+  title: "SEO Services | Flux Digital",
   description:
     "Dominate Google with Flux Digital's expert SEO services in Bangalore, including technical SEO, on-page SEO, link building, local SEO, and content strategy.",
 };
