@@ -27,7 +27,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
         <a class="seo-link" href="/seo" onclick="showPage('seo')"><i class="fas fa-search"></i> Search Engine Optimization</a>
         <a href="/digital-marketing" onclick="showPage('digital')"><i class="fas fa-bullhorn"></i> Digital Marketing</a>
         <a href="/social-media-marketing" onclick="showPage('smm')"><i class="fab fa-instagram"></i> Social Media Marketing</a>
-        <a href="/digital-marketing#dm-pricing" onclick="showPage('digital','dm-pricing')"><i class="fas fa-ad"></i> Google Ads (PPC)</a>
+        <a href="/pay-per-click" onclick="showPage('ppc')"><i class="fas fa-ad"></i> Google Ads (PPC)</a>
         <a href="/web-design-development" onclick="showPage('webdev')"><i class="fas fa-code"></i> Web Design & Development</a>
         <a href="/web-design-development#webdev-services" onclick="showPage('webdev','webdev-services')"><i class="fas fa-pen-ruler"></i> UI/UX & Graphic Design</a>
       </div>
@@ -1569,6 +1569,425 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
 <!-- ====================================================
      CONTACT US PAGE
      ==================================================== -->
+<div id="page-ppc" class="page">
+
+<!-- PPC HERO -->
+<section class="ppc-hero">
+  <div class="ppc-hero-left">
+    <div class="ppc-breadcrumb">
+      <a onclick="showPage('home')">Home</a>
+      <span>/</span>
+      <a onclick="showPage('home')">Services</a>
+      <span>/</span>
+      <span>Google Ads (PPC)</span>
+    </div>
+    <h1 class="ppc-hero-title">
+      Dominate Search with<br>
+      <span class="highlight">Expert Google Ads Management.</span>
+    </h1>
+    <p class="ppc-hero-desc">
+      Stop wasting ad budget on clicks that don't convert. Our certified Google Ads specialists build, manage, and optimise high-ROI PPC campaigns that put your brand in front of the right people at the exact moment they're ready to buy.
+    </p>
+    <div class="ppc-hero-actions">
+      <button class="btn-primary" onclick="showPage('contact')">Get Free PPC Audit →</button>
+      <a href="/pay-per-click#ppc-pricing" onclick="showPage('ppc','ppc-pricing')" class="btn-secondary" style="cursor:pointer">View PPC Plans</a>
+    </div>
+    <div class="ppc-trust-pills">
+      <div class="ppc-trust-pill"><i class="fas fa-check-circle"></i> Google Partner Agency</div>
+      <div class="ppc-trust-pill"><i class="fas fa-check-circle"></i> ₹5Cr+ Ad Spend Managed</div>
+      <div class="ppc-trust-pill"><i class="fas fa-check-circle"></i> Avg 4.8x ROAS</div>
+      <div class="ppc-trust-pill"><i class="fas fa-check-circle"></i> No Lock-in Contracts</div>
+    </div>
+  </div>
+
+  <div class="ppc-hero-right">
+    <div class="ppc-visual-card">
+      <div class="ppc-float-badge">
+        <i class="fas fa-arrow-trend-up"></i>
+        <div>
+          <div class="fb-text">Average ROAS</div>
+          <div class="fb-value">4.8x</div>
+        </div>
+      </div>
+      <div class="ppc-visual-header">
+        <div class="ppc-visual-icon"><i class="fab fa-google"></i></div>
+        <div>
+          <div class="ppc-visual-title">Campaign Performance</div>
+          <div class="ppc-visual-sub">Live client averages</div>
+        </div>
+      </div>
+      <div class="ppc-metric-row">
+        <div class="ppc-metric-item">
+          <div class="ppc-metric-icon ppc-metric-icon-1"><i class="fas fa-mouse-pointer"></i></div>
+          <div class="ppc-metric-info">
+            <div class="ppc-metric-name">Click-Through Rate</div>
+            <div class="ppc-metric-val">8.4%</div>
+          </div>
+          <div class="ppc-metric-badge">+2.1x Avg</div>
+        </div>
+        <div class="ppc-metric-item">
+          <div class="ppc-metric-icon ppc-metric-icon-2"><i class="fas fa-coins"></i></div>
+          <div class="ppc-metric-info">
+            <div class="ppc-metric-name">Cost Per Lead</div>
+            <div class="ppc-metric-val">₹ 184</div>
+          </div>
+          <div class="ppc-metric-badge">−62% CPL</div>
+        </div>
+        <div class="ppc-metric-item">
+          <div class="ppc-metric-icon ppc-metric-icon-3"><i class="fas fa-chart-line"></i></div>
+          <div class="ppc-metric-info">
+            <div class="ppc-metric-name">Conv. Rate Uplift</div>
+            <div class="ppc-metric-val">+3.2x</div>
+          </div>
+          <div class="ppc-metric-badge">vs. Before</div>
+        </div>
+      </div>
+      <div class="ppc-visual-footer">
+        <div class="ppc-mini-stat"><div class="val">₹5Cr+</div><div class="lbl">Ad Spend Managed</div></div>
+        <div class="ppc-mini-stat"><div class="val">320+</div><div class="lbl">Campaigns Live</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PPC CAMPAIGN TYPES -->
+<section class="ppc-services">
+  <div class="section-tag">WHAT WE OFFER</div>
+  <h2 class="section-title">Complete Google Ads Solutions</h2>
+  <p class="section-desc">From search to shopping, display to video — we handle every type of Google Ads campaign to maximise your reach and revenue.</p>
+  <div class="ppc-services-grid">
+    <div class="ppc-svc-card">
+      <div class="ppc-svc-icon ppc-svc-icon-1"><i class="fab fa-google"></i></div>
+      <div class="ppc-svc-title">Search Ads</div>
+      <div class="ppc-svc-desc">Capture high-intent buyers the moment they search on Google. We build tightly-themed ad groups, write compelling ad copy, and optimise bidding strategies to maximise conversions at the lowest possible cost.</div>
+      <div class="ppc-svc-tags">
+        <span class="ppc-svc-tag">Keyword Research</span>
+        <span class="ppc-svc-tag">Ad Copywriting</span>
+        <span class="ppc-svc-tag">Bid Strategy</span>
+      </div>
+    </div>
+    <div class="ppc-svc-card">
+      <div class="ppc-svc-icon ppc-svc-icon-2"><i class="fas fa-shopping-cart"></i></div>
+      <div class="ppc-svc-title">Shopping Ads</div>
+      <div class="ppc-svc-desc">Showcase your products directly in Google Search results with images, prices, and ratings. We optimise your product feed, set up Performance Max, and structure campaigns to drive high-value purchases.</div>
+      <div class="ppc-svc-tags">
+        <span class="ppc-svc-tag">Feed Optimisation</span>
+        <span class="ppc-svc-tag">Performance Max</span>
+        <span class="ppc-svc-tag">ROAS Targeting</span>
+      </div>
+    </div>
+    <div class="ppc-svc-card">
+      <div class="ppc-svc-icon ppc-svc-icon-3"><i class="fas fa-desktop"></i></div>
+      <div class="ppc-svc-title">Display & Remarketing</div>
+      <div class="ppc-svc-desc">Re-engage website visitors and reach new audiences across millions of websites, apps, and Gmail. Our audience targeting and creative strategies keep your brand top-of-mind and bring back lost leads.</div>
+      <div class="ppc-svc-tags">
+        <span class="ppc-svc-tag">Audience Targeting</span>
+        <span class="ppc-svc-tag">Remarketing</span>
+        <span class="ppc-svc-tag">Banner Creatives</span>
+      </div>
+    </div>
+    <div class="ppc-svc-card">
+      <div class="ppc-svc-icon ppc-svc-icon-4"><i class="fab fa-youtube"></i></div>
+      <div class="ppc-svc-title">YouTube Video Ads</div>
+      <div class="ppc-svc-desc">Build brand awareness and drive conversions through pre-roll, in-feed, and shorts ads on YouTube. We handle audience setup, bidding, and performance tracking to ensure every rupee counts.</div>
+      <div class="ppc-svc-tags">
+        <span class="ppc-svc-tag">In-Stream Ads</span>
+        <span class="ppc-svc-tag">In-Feed Ads</span>
+        <span class="ppc-svc-tag">View Rate Optim.</span>
+      </div>
+    </div>
+    <div class="ppc-svc-card">
+      <div class="ppc-svc-icon ppc-svc-icon-5"><i class="fas fa-location-dot"></i></div>
+      <div class="ppc-svc-title">Local & Call Ads</div>
+      <div class="ppc-svc-desc">Drive calls, store visits, and direction requests from people near your business. We create local search and call-only campaigns optimised for your area, perfect for clinics, showrooms, and service businesses.</div>
+      <div class="ppc-svc-tags">
+        <span class="ppc-svc-tag">Call Extensions</span>
+        <span class="ppc-svc-tag">Location Targeting</span>
+        <span class="ppc-svc-tag">Local Campaigns</span>
+      </div>
+    </div>
+    <div class="ppc-svc-card">
+      <div class="ppc-svc-icon ppc-svc-icon-6"><i class="fas fa-chart-mixed"></i></div>
+      <div class="ppc-svc-title">PPC Audit & Rescue</div>
+      <div class="ppc-svc-desc">Running ads but not seeing results? We audit your existing campaigns to uncover wasted spend, poor Quality Scores, and conversion leaks — then rebuild your account structure for maximum ROI.</div>
+      <div class="ppc-svc-tags">
+        <span class="ppc-svc-tag">Account Audit</span>
+        <span class="ppc-svc-tag">Quality Score Fix</span>
+        <span class="ppc-svc-tag">Waste Reduction</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US STRIP -->
+<section class="ppc-why-strip">
+  <div style="text-align:center;max-width:680px;margin:0 auto 56px">
+    <div class="section-tag" style="justify-content:center;color:#f59e0b">WHY FLUX DIGITAL</div>
+    <h2 class="section-title" style="color:#fff">Why Brands Trust Us With Their Ad Budget</h2>
+  </div>
+  <div class="ppc-why-strip-inner">
+    <div class="ppc-why-item">
+      <div class="ppc-why-icon">🏆</div>
+      <h4>Certified Google Partners</h4>
+      <p>Our team holds active Google Ads certifications across Search, Display, Shopping, and Video — so your campaigns are in expert hands.</p>
+    </div>
+    <div class="ppc-why-item">
+      <div class="ppc-why-icon">📉</div>
+      <h4>We Cut Wasted Spend</h4>
+      <p>The first thing we do is audit your account for budget leaks. On average, we reduce wasted ad spend by 40–60% within the first 30 days.</p>
+    </div>
+    <div class="ppc-why-item">
+      <div class="ppc-why-icon">📊</div>
+      <h4>Transparent Reporting</h4>
+      <p>No smoke and mirrors. You get a clear dashboard with real metrics — impressions, clicks, leads, cost-per-lead — updated weekly.</p>
+    </div>
+    <div class="ppc-why-item">
+      <div class="ppc-why-icon">🎯</div>
+      <h4>Conversion-First Mindset</h4>
+      <p>We don't optimise for clicks — we optimise for conversions. Every decision from bidding to landing page is focused on your bottom line.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PPC PROCESS -->
+<section class="ppc-process">
+  <div style="text-align:center;max-width:700px;margin:0 auto">
+    <div class="section-tag">HOW WE WORK</div>
+    <h2 class="section-title" style="text-align:center">Our 5-Step PPC Launch Process</h2>
+    <p class="section-desc" style="text-align:center;margin:0 auto">A proven, repeatable process that gets your campaigns profitable fast — and keeps improving month after month.</p>
+  </div>
+  <div class="ppc-process-grid">
+    <div class="ppc-process-step">
+      <div class="ppc-step-num">1</div>
+      <div class="ppc-step-title">Discovery & Audit</div>
+      <div class="ppc-step-desc">We study your business, goals, competitors, and existing account (if any) to identify opportunities and gaps.</div>
+    </div>
+    <div class="ppc-process-step">
+      <div class="ppc-step-num">2</div>
+      <div class="ppc-step-title">Strategy & Structure</div>
+      <div class="ppc-step-desc">We build a campaign architecture — ad groups, keywords, match types, negative lists, and bidding strategy tailored to your goals.</div>
+    </div>
+    <div class="ppc-process-step">
+      <div class="ppc-step-num">3</div>
+      <div class="ppc-step-title">Creative & Launch</div>
+      <div class="ppc-step-desc">Our copywriters craft high-converting ad headlines and descriptions. We set up tracking, launch, and monitor closely in the first 48 hours.</div>
+    </div>
+    <div class="ppc-process-step">
+      <div class="ppc-step-num">4</div>
+      <div class="ppc-step-title">Optimise & Scale</div>
+      <div class="ppc-step-desc">Weekly bid adjustments, A/B ad testing, search term pruning, and Quality Score improvements to lower CPL and raise ROAS.</div>
+    </div>
+    <div class="ppc-process-step">
+      <div class="ppc-step-num">5</div>
+      <div class="ppc-step-title">Report & Grow</div>
+      <div class="ppc-step-desc">Monthly strategy calls, clear reporting, and a roadmap to scale campaigns as performance matures and budget grows.</div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS + PLATFORMS -->
+<section class="ppc-results">
+  <div style="text-align:center;max-width:700px;margin:0 auto">
+    <div class="section-tag">PROVEN RESULTS</div>
+    <h2 class="section-title" style="text-align:center">Real Campaigns. Real Numbers.</h2>
+    <p class="section-desc" style="text-align:center;margin:0 auto">Here's what our clients actually achieved — not industry benchmarks, but real results from brands across Bangalore and India.</p>
+  </div>
+  <div class="ppc-results-grid">
+    <div class="ppc-results-left">
+      <div class="ppc-case-card">
+        <div class="ppc-case-header">
+          <div class="ppc-case-logo ppc-case-logo-1"><i class="fas fa-hospital"></i></div>
+          <div>
+            <div class="ppc-case-industry">Healthcare — Bangalore</div>
+            <div class="ppc-case-name">Multi-Speciality Clinic</div>
+          </div>
+        </div>
+        <div class="ppc-case-stats">
+          <div class="ppc-case-stat">
+            <div class="ppc-case-stat-val green">+340%</div>
+            <div class="ppc-case-stat-lbl">Appointments</div>
+          </div>
+          <div class="ppc-case-stat">
+            <div class="ppc-case-stat-val orange">₹120</div>
+            <div class="ppc-case-stat-lbl">Cost Per Lead</div>
+          </div>
+          <div class="ppc-case-stat">
+            <div class="ppc-case-stat-val">5.2x</div>
+            <div class="ppc-case-stat-lbl">ROAS</div>
+          </div>
+        </div>
+      </div>
+      <div class="ppc-case-card">
+        <div class="ppc-case-header">
+          <div class="ppc-case-logo ppc-case-logo-2"><i class="fas fa-graduation-cap"></i></div>
+          <div>
+            <div class="ppc-case-industry">EdTech — Pan India</div>
+            <div class="ppc-case-name">Online Learning Platform</div>
+          </div>
+        </div>
+        <div class="ppc-case-stats">
+          <div class="ppc-case-stat">
+            <div class="ppc-case-stat-val green">−58%</div>
+            <div class="ppc-case-stat-lbl">Cost Per Sign-up</div>
+          </div>
+          <div class="ppc-case-stat">
+            <div class="ppc-case-stat-val orange">12K+</div>
+            <div class="ppc-case-stat-lbl">Monthly Leads</div>
+          </div>
+          <div class="ppc-case-stat">
+            <div class="ppc-case-stat-val">4.1x</div>
+            <div class="ppc-case-stat-lbl">ROAS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ppc-results-right">
+      <div style="margin-bottom:28px">
+        <div class="section-tag">PLATFORMS WE MANAGE</div>
+        <h3 style="font-family:'Plus Jakarta Sans',sans-serif;font-size:28px;font-weight:800;color:var(--dark);margin-top:8px">Every Google Ads Platform, Covered.</h3>
+      </div>
+      <div class="ppc-platform-list">
+        <div class="ppc-platform-item">
+          <div class="ppc-platform-icon ppc-pl-google"><i class="fab fa-google"></i></div>
+          <div class="ppc-platform-info">
+            <div class="ppc-platform-name">Google Search & Performance Max</div>
+            <div class="ppc-platform-desc">High-intent lead generation and full-funnel conversions across Google properties.</div>
+          </div>
+          <div class="ppc-platform-badge">Core</div>
+        </div>
+        <div class="ppc-platform-item">
+          <div class="ppc-platform-icon ppc-pl-youtube"><i class="fab fa-youtube"></i></div>
+          <div class="ppc-platform-info">
+            <div class="ppc-platform-name">YouTube Video Advertising</div>
+            <div class="ppc-platform-desc">Brand awareness and product discovery through in-stream and in-feed video ads.</div>
+          </div>
+          <div class="ppc-platform-badge">Video</div>
+        </div>
+        <div class="ppc-platform-item">
+          <div class="ppc-platform-icon ppc-pl-display"><i class="fas fa-desktop"></i></div>
+          <div class="ppc-platform-info">
+            <div class="ppc-platform-name">Google Display Network</div>
+            <div class="ppc-platform-desc">Remarketing and prospecting across 2M+ partner websites and apps.</div>
+          </div>
+          <div class="ppc-platform-badge">Display</div>
+        </div>
+        <div class="ppc-platform-item">
+          <div class="ppc-platform-icon ppc-pl-shopping"><i class="fas fa-shopping-bag"></i></div>
+          <div class="ppc-platform-info">
+            <div class="ppc-platform-name">Google Shopping Ads</div>
+            <div class="ppc-platform-desc">Product feed optimisation and Shopping campaigns for e-commerce growth.</div>
+          </div>
+          <div class="ppc-platform-badge">E-comm</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PPC PRICING -->
+<section class="ppc-pricing" id="ppc-pricing">
+  <div style="text-align:center;max-width:700px;margin:0 auto">
+    <div class="section-tag">PPC PLANS</div>
+    <h2 class="section-title" style="text-align:center">Transparent Google Ads Pricing</h2>
+    <p class="section-desc" style="text-align:center;margin:0 auto">All plans include account setup, campaign management, monthly reporting, and a dedicated PPC specialist. Ad spend is billed separately.</p>
+  </div>
+  <div class="ppc-pricing-grid pricing-grid">
+    <div class="price-card">
+      <div class="price-name">Starter</div>
+      <div class="price-amount">₹12K <small>/month</small></div>
+      <div class="price-desc">Ideal for small businesses and local service providers running their first Google Ads campaign.</div>
+      <div class="price-features">
+        <div class="price-feature"><i class="fas fa-check"></i> Ad spend up to ₹50K/month</div>
+        <div class="price-feature"><i class="fas fa-check"></i> 1 Campaign Type (Search)</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Keyword Research & Setup</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Conversion Tracking Setup</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Monthly Performance Report</div>
+        <div class="price-feature"><i class="fas fa-check"></i> 1 Landing Page Recommendation</div>
+      </div>
+      <button class="price-btn" onclick="showPage('contact')">Get Started</button>
+    </div>
+    <div class="price-card popular">
+      <div class="popular-badge">Most Popular</div>
+      <div class="price-name">Growth</div>
+      <div class="price-amount">₹25K <small>/month</small></div>
+      <div class="price-desc">For growing brands ready to scale leads and sales aggressively across multiple campaign types.</div>
+      <div class="price-features">
+        <div class="price-feature"><i class="fas fa-check"></i> Ad spend up to ₹2L/month</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Search + Display + Remarketing</div>
+        <div class="price-feature"><i class="fas fa-check"></i> A/B Ad Copy Testing</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Advanced Audience Targeting</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Bi-weekly Reporting & Calls</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Landing Page CRO Audit</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Competitor Ad Analysis</div>
+      </div>
+      <button class="price-btn" onclick="showPage('contact')">Get Started</button>
+    </div>
+    <div class="price-card">
+      <div class="price-name">Enterprise</div>
+      <div class="price-amount">₹50K <small>/month</small></div>
+      <div class="price-desc">For large brands and e-commerce businesses needing full-scale Google Ads management with Performance Max and Shopping.</div>
+      <div class="price-features">
+        <div class="price-feature"><i class="fas fa-check"></i> Ad spend above ₹2L/month</div>
+        <div class="price-feature"><i class="fas fa-check"></i> All Campaign Types Incl. Shopping</div>
+        <div class="price-feature"><i class="fas fa-check"></i> YouTube Video Ads</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Performance Max Campaigns</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Dedicated Account Manager</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Weekly Strategy Calls</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Custom Dashboard Access</div>
+      </div>
+      <button class="price-btn" onclick="showPage('contact')">Get Started</button>
+    </div>
+  </div>
+</section>
+
+<!-- PPC CTA -->
+<section class="ppc-cta">
+  <h2>Stop Burning Budget. Start Getting Results.</h2>
+  <p>Get a free Google Ads audit and discover exactly how much budget you're wasting — and how we can fix it. No commitment. No fluff. Just honest insights.</p>
+  <div class="ppc-cta-btns">
+    <button class="btn-primary" onclick="showPage('contact')">Get Free PPC Audit</button>
+    <a href="https://wa.me/918870156021" target="_blank" class="btn-cta-outline"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+  </div>
+</section>
+
+<!-- PPC FAQ -->
+<section class="ppc-faq">
+  <div style="text-align:center;max-width:680px;margin:0 auto 0">
+    <div class="section-tag">QUICK ANSWERS</div>
+    <h2 class="section-title" style="text-align:center">Google Ads FAQs</h2>
+    <p class="section-desc" style="text-align:center;margin:0 auto 48px">Got questions? Here are the ones we hear most from businesses before starting Google Ads.</p>
+  </div>
+  <div class="ppc-faq-grid">
+    <div class="ppc-faq-item">
+      <div class="ppc-faq-q"><i class="fas fa-chevron-right"></i> How much should I spend on Google Ads?</div>
+      <div class="ppc-faq-a">There's no one-size-fits-all answer — it depends on your industry, competition, and goals. For most local businesses in Bangalore, we recommend starting with ₹20,000–₹50,000/month in ad spend. We'll advise you on the right budget after a free audit.</div>
+    </div>
+    <div class="ppc-faq-item">
+      <div class="ppc-faq-q"><i class="fas fa-chevron-right"></i> How soon will I see results from Google Ads?</div>
+      <div class="ppc-faq-a">Unlike SEO, Google Ads can show results within 24–72 hours of launch. However, the first 2–4 weeks are a learning phase where we gather data and optimise. Most clients see significant improvement in CPL and ROAS by month two.</div>
+    </div>
+    <div class="ppc-faq-item">
+      <div class="ppc-faq-q"><i class="fas fa-chevron-right"></i> What is ROAS and what should I aim for?</div>
+      <div class="ppc-faq-a">ROAS (Return on Ad Spend) measures revenue earned for every rupee spent on ads. A 4x ROAS means you earn ₹4 for every ₹1 spent. Our clients average 4.8x ROAS, though targets vary by industry — e-commerce typically aims for 5–8x, while service businesses focus on cost-per-lead instead.</div>
+    </div>
+    <div class="ppc-faq-item">
+      <div class="ppc-faq-q"><i class="fas fa-chevron-right"></i> Do you manage the ad account or do I keep ownership?</div>
+      <div class="ppc-faq-a">You always retain full ownership of your Google Ads account. We request manager access to manage campaigns on your behalf. If you ever leave (though we hope you won't!), the account, history, and data remain 100% yours.</div>
+    </div>
+    <div class="ppc-faq-item">
+      <div class="ppc-faq-q"><i class="fas fa-chevron-right"></i> My ads are running but not getting leads — what's wrong?</div>
+      <div class="ppc-faq-a">This is the most common problem we fix. The issue is usually a combination of poor keyword targeting, weak ad copy, slow landing pages, or missing conversion tracking. Our PPC Rescue Audit identifies and prioritises every issue. Book a free audit to find out exactly what's happening.</div>
+    </div>
+    <div class="ppc-faq-item">
+      <div class="ppc-faq-q"><i class="fas fa-chevron-right"></i> Is there a minimum contract period?</div>
+      <div class="ppc-faq-a">We recommend a minimum of 3 months to allow campaigns to optimise properly and show meaningful results — Google's algorithm needs time to learn. That said, we don't lock you in with long contracts. You're free to continue or stop based on results.</div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /page-ppc -->
+
+
 <div id="page-contact" class="page">
 
 <section class="contact-hero">
@@ -1705,7 +2124,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
       <div class="footer-links">
         <a href="/seo" onclick="showPage('seo')">SEO Services</a>
         <a href="/digital-marketing" onclick="showPage('digital')">Digital Marketing</a>
-        <a href="/digital-marketing#dm-pricing" onclick="showPage('digital','dm-pricing')">Google Ads</a>
+        <a href="/pay-per-click" onclick="showPage('ppc')">Google Ads</a>
         <a href="/social-media-marketing#smm-pricing" onclick="showPage('smm','smm-pricing')">Meta Ads</a>
         <a href="/social-media-marketing" onclick="showPage('smm')">Social Media Marketing</a>
         <a href="/web-design-development#webdev-services" onclick="showPage('webdev','webdev-services')">UI/UX Design</a>
@@ -1722,7 +2141,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
 <!-- ====== SCRIPTS ====== -->`;
 
 type FluxWebsiteProps = {
-  initialPage?: "home" | "seo" | "digital" | "smm" | "webdev" | "about" | "contact";
+  initialPage?: "home" | "seo" | "digital" | "ppc" | "smm" | "webdev" | "about" | "contact";
 };
 
 export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) {
@@ -1734,6 +2153,7 @@ export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) 
     .replace('<div id="page-home" class="page active">', `<div id="page-home" class="page${initialPage === "home" ? " active" : ""}">`)
     .replace('<div id="page-seo" class="page">', `<div id="page-seo" class="page${initialPage === "seo" ? " active" : ""}">`)
     .replace('<div id="page-digital" class="page">', `<div id="page-digital" class="page${initialPage === "digital" ? " active" : ""}">`)
+    .replace('<div id="page-ppc" class="page">', `<div id="page-ppc" class="page${initialPage === "ppc" ? " active" : ""}">`)
     .replace('<div id="page-smm" class="page">', `<div id="page-smm" class="page${initialPage === "smm" ? " active" : ""}">`)
     .replace('<div id="page-webdev" class="page">', `<div id="page-webdev" class="page${initialPage === "webdev" ? " active" : ""}">`)
     .replace('<div id="page-about" class="page">', `<div id="page-about" class="page${initialPage === "about" ? " active" : ""}">`)
@@ -1793,6 +2213,7 @@ export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) 
         home: "/",
         seo: "/seo",
         digital: "/digital-marketing",
+        ppc: "/pay-per-click",
         smm: "/social-media-marketing",
         webdev: "/web-design-development",
         about: "/about",
@@ -1891,7 +2312,7 @@ export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) 
     };
 
     const revealTargets = websiteRoot?.querySelectorAll<HTMLElement>(
-      "section, .service-card, .why-card, .testimonial-card, .faq-item, .price-card, .seo-svc-card, .dm-svc-card, .dm-why-card, .smm-svc-card, .webdev-svc-card, .webdev-tech-card, .about-value-card, .team-card, .contact-info-card, .contact-faq-item"
+      "section, .service-card, .why-card, .testimonial-card, .faq-item, .price-card, .seo-svc-card, .dm-svc-card, .dm-why-card, .ppc-svc-card, .ppc-process-step, .ppc-case-card, .ppc-platform-item, .ppc-faq-item, .smm-svc-card, .webdev-svc-card, .webdev-tech-card, .about-value-card, .team-card, .contact-info-card, .contact-faq-item"
     );
     revealTargets?.forEach((item) => item.classList.add("reveal"));
 
@@ -1926,3 +2347,5 @@ export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) 
 
   return <div ref={websiteRef} dangerouslySetInnerHTML={{ __html: pageMarkup }} />;
 }
+
+
