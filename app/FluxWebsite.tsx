@@ -29,7 +29,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
         <a href="/social-media-marketing" onclick="showPage('smm')"><i class="fab fa-instagram"></i> Social Media Marketing</a>
         <a href="/pay-per-click" onclick="showPage('ppc')"><i class="fas fa-ad"></i> Google Ads (PPC)</a>
         <a href="/web-design-development" onclick="showPage('webdev')"><i class="fas fa-code"></i> Web Design & Development</a>
-        <a href="/web-design-development#webdev-services" onclick="showPage('webdev','webdev-services')"><i class="fas fa-pen-ruler"></i> UI/UX & Graphic Design</a>
+        <a href="/ui-ux-graphic-design" onclick="showPage('uiux')"><i class="fas fa-pen-ruler"></i> UI/UX & Graphic Design</a>
       </div>
     </div>
     <a id="nav-about" href="/about" onclick="showPage('about')">About</a>
@@ -2072,6 +2072,421 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
 </div><!-- /page-contact -->
 
 
+<!-- ====================================================
+     UI/UX & GRAPHIC DESIGN PAGE
+     ==================================================== -->
+<div id="page-uiux" class="page">
+
+<!-- HERO -->
+<section class="uiux-hero">
+  <div class="uiux-hero-left">
+    <div class="uiux-breadcrumb">
+      <a href="/" onclick="showPage('home')">Home</a>
+      <span>/</span>
+      <a href="/" onclick="showPage('home')">Services</a>
+      <span>/</span>
+      <span>UI/UX &amp; Graphic Design</span>
+    </div>
+    <h1 class="uiux-hero-title">
+      Designs That <span class="highlight">Delight Users</span><br>and Drive Conversions.
+    </h1>
+    <p class="uiux-hero-desc">
+      We craft stunning, user-first interfaces that look exceptional and perform brilliantly. From Figma wireframes to pixel-perfect final designs — every screen we create is built to engage, convert, and leave a lasting impression.
+    </p>
+    <div class="uiux-hero-actions">
+      <button class="btn-primary" style="background:linear-gradient(135deg,#ec4899,#8b5cf6);box-shadow:0 6px 25px rgba(236,72,153,0.4)" onclick="showPage('contact')">Get Free Design Audit →</button>
+      <a href="#uiux-portfolio" onclick="window.showPage('uiux','uiux-portfolio')" class="btn-secondary">View Portfolio</a>
+    </div>
+    <div class="uiux-trust-pills">
+      <div class="uiux-trust-pill"><i class="fas fa-check-circle"></i> 150+ Projects Designed</div>
+      <div class="uiux-trust-pill"><i class="fas fa-star"></i> 40% Avg. Bounce Rate Drop</div>
+      <div class="uiux-trust-pill"><i class="fab fa-figma"></i> Figma Certified Team</div>
+    </div>
+  </div>
+
+  <div class="uiux-hero-right">
+    <div class="uiux-visual-card">
+      <div class="uiux-float-badge">
+        <i class="fas fa-star"></i>
+        <div>
+          <div class="fb-text">User Satisfaction</div>
+          <div class="fb-value">98%</div>
+        </div>
+      </div>
+      <div class="uiux-card-header">
+        <div class="uiux-card-icon"><i class="fas fa-pen-ruler"></i></div>
+        <div>
+          <div class="uiux-card-title-text">Design Performance</div>
+          <div class="uiux-card-sub">Average improvement across client projects</div>
+        </div>
+      </div>
+      <div class="uiux-score-row">
+        <div class="uiux-score-box uiux-score-box-pink">
+          <div class="uiux-score-val uiux-score-val-pink">40%</div>
+          <div class="uiux-score-lbl">Bounce Rate Drop</div>
+        </div>
+        <div class="uiux-score-box uiux-score-box-purple">
+          <div class="uiux-score-val uiux-score-val-purple">3x</div>
+          <div class="uiux-score-lbl">Conversion Uplift</div>
+        </div>
+        <div class="uiux-score-box uiux-score-box-pink">
+          <div class="uiux-score-val uiux-score-val-pink">2.4x</div>
+          <div class="uiux-score-lbl">Longer Session Time</div>
+        </div>
+        <div class="uiux-score-box uiux-score-box-purple">
+          <div class="uiux-score-val uiux-score-val-purple">98%</div>
+          <div class="uiux-score-lbl">Client Satisfaction</div>
+        </div>
+      </div>
+      <div class="uiux-tool-row">
+        <div class="uiux-tool-chip uiux-tc-figma"><i class="fab fa-figma" style="color:#ec4899"></i> Figma</div>
+        <div class="uiux-tool-chip uiux-tc-ps"><i class="fas fa-layer-group" style="color:#1a88f5"></i> Photoshop</div>
+        <div class="uiux-tool-chip uiux-tc-ai"><i class="fas fa-vector-square" style="color:#ff9a00"></i> Illustrator</div>
+        <div class="uiux-tool-chip uiux-tc-proto"><i class="fas fa-mobile-screen-button" style="color:#8b5cf6"></i> Prototyping</div>
+      </div>
+      <div class="uiux-visual-stats">
+        <div class="uiux-mini-stat uiux-ms-pink"><div class="val uiux-mv-pink">150+</div><div class="lbl">Projects Delivered</div></div>
+        <div class="uiux-mini-stat uiux-ms-purple"><div class="val uiux-mv-purple">8yr+</div><div class="lbl">Design Experience</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="uiux-services">
+  <div class="section-tag">OUR DESIGN SERVICES</div>
+  <h2 class="section-title">Complete UI/UX &amp; Graphic Design Solutions</h2>
+  <p class="section-desc">From brand identity to full-scale product design, we create visually stunning and highly functional designs that build trust and drive action.</p>
+  <div class="uiux-services-grid">
+    <div class="uiux-svc-card">
+      <div class="uiux-svc-icon uiux-ic-1"><i class="fas fa-mobile-screen-button"></i></div>
+      <div class="uiux-svc-title">UI Design (Web &amp; Mobile)</div>
+      <div class="uiux-svc-desc">Pixel-perfect interface designs for websites and mobile apps. We create clean, modern layouts with strong visual hierarchy that guide users to take action.</div>
+      <div class="uiux-svc-tags"><span class="uiux-svc-tag">Web UI</span><span class="uiux-svc-tag">Mobile UI</span><span class="uiux-svc-tag">App Design</span></div>
+    </div>
+    <div class="uiux-svc-card">
+      <div class="uiux-svc-icon uiux-ic-2"><i class="fas fa-users-viewfinder"></i></div>
+      <div class="uiux-svc-title">UX Research &amp; Strategy</div>
+      <div class="uiux-svc-desc">User journey mapping, persona creation, heatmap analysis, and competitor research to understand exactly how users think and behave — then design accordingly.</div>
+      <div class="uiux-svc-tags"><span class="uiux-svc-tag">User Research</span><span class="uiux-svc-tag">Personas</span><span class="uiux-svc-tag">Journey Maps</span></div>
+    </div>
+    <div class="uiux-svc-card">
+      <div class="uiux-svc-icon uiux-ic-3"><i class="fab fa-figma"></i></div>
+      <div class="uiux-svc-title">Wireframing &amp; Prototyping</div>
+      <div class="uiux-svc-desc">Interactive Figma prototypes that let you experience your product before development begins. We create low-fi wireframes through to high-fi clickable prototypes.</div>
+      <div class="uiux-svc-tags"><span class="uiux-svc-tag">Figma</span><span class="uiux-svc-tag">Wireframes</span><span class="uiux-svc-tag">Click-Through</span></div>
+    </div>
+    <div class="uiux-svc-card">
+      <div class="uiux-svc-icon uiux-ic-4"><i class="fas fa-palette"></i></div>
+      <div class="uiux-svc-title">Brand Identity &amp; Logo Design</div>
+      <div class="uiux-svc-desc">Complete brand identity systems — logo design, colour palettes, typography, brand guidelines, and visual language that makes your business instantly recognisable.</div>
+      <div class="uiux-svc-tags"><span class="uiux-svc-tag">Logo</span><span class="uiux-svc-tag">Brand Guide</span><span class="uiux-svc-tag">Identity</span></div>
+    </div>
+    <div class="uiux-svc-card">
+      <div class="uiux-svc-icon uiux-ic-5"><i class="fas fa-image"></i></div>
+      <div class="uiux-svc-title">Graphic Design &amp; Creatives</div>
+      <div class="uiux-svc-desc">Social media creatives, marketing banners, brochures, flyers, presentations, email templates, and all marketing collateral to make your brand shine everywhere.</div>
+      <div class="uiux-svc-tags"><span class="uiux-svc-tag">Social Creatives</span><span class="uiux-svc-tag">Banners</span><span class="uiux-svc-tag">Print</span></div>
+    </div>
+    <div class="uiux-svc-card">
+      <div class="uiux-svc-icon uiux-ic-6"><i class="fas fa-arrows-to-circle"></i></div>
+      <div class="uiux-svc-title">Conversion Rate Optimisation</div>
+      <div class="uiux-svc-desc">UX audits, A/B test design variants, CTA optimisation, landing page redesigns, and checkout flow improvements to turn more visitors into paying customers.</div>
+      <div class="uiux-svc-tags"><span class="uiux-svc-tag">CRO</span><span class="uiux-svc-tag">A/B Testing</span><span class="uiux-svc-tag">Audit</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS WE USE -->
+<section class="uiux-tools">
+  <div style="text-align:center;max-width:760px;margin:0 auto">
+    <div class="section-tag">OUR DESIGN TOOLKIT</div>
+    <h2 class="section-title">Industry-Leading Design Tools</h2>
+    <p class="section-desc" style="margin:0 auto">Our designers are proficient in the world's best design software to deliver precise, scalable, and production-ready design assets every time.</p>
+  </div>
+  <div class="uiux-tools-grid">
+    <div class="uiux-tool-card">
+      <div class="uiux-tool-emoji">🎨</div>
+      <div>
+        <div class="uiux-tool-name">Figma</div>
+        <div class="uiux-tool-use">UI design, component libraries, interactive prototypes, design systems, and developer handoff — our primary design tool.</div>
+      </div>
+    </div>
+    <div class="uiux-tool-card">
+      <div class="uiux-tool-emoji">🖼️</div>
+      <div>
+        <div class="uiux-tool-name">Adobe Photoshop</div>
+        <div class="uiux-tool-use">Photo editing, banner creation, social media graphics, marketing creatives, and raster-based visual design work.</div>
+      </div>
+    </div>
+    <div class="uiux-tool-card">
+      <div class="uiux-tool-emoji">✏️</div>
+      <div>
+        <div class="uiux-tool-name">Adobe Illustrator</div>
+        <div class="uiux-tool-use">Logo design, vector illustrations, iconography, infographics, and scalable brand identity assets.</div>
+      </div>
+    </div>
+    <div class="uiux-tool-card">
+      <div class="uiux-tool-emoji">📐</div>
+      <div>
+        <div class="uiux-tool-name">Adobe InDesign</div>
+        <div class="uiux-tool-use">Brochures, catalogues, annual reports, presentations, and professional print-ready multi-page documents.</div>
+      </div>
+    </div>
+    <div class="uiux-tool-card">
+      <div class="uiux-tool-emoji">🔥</div>
+      <div>
+        <div class="uiux-tool-name">Hotjar &amp; Analytics</div>
+        <div class="uiux-tool-use">Heatmaps, session recordings, and conversion funnels to understand real user behaviour and inform UX decisions.</div>
+      </div>
+    </div>
+    <div class="uiux-tool-card">
+      <div class="uiux-tool-emoji">⚡</div>
+      <div>
+        <div class="uiux-tool-name">Canva Pro &amp; After Effects</div>
+        <div class="uiux-tool-use">Quick social media creatives, motion graphics, animated banners, and video ad design for digital marketing campaigns.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="uiux-process">
+  <div style="text-align:center;max-width:760px;margin:0 auto 10px">
+    <div class="section-tag">OUR DESIGN PROCESS</div>
+    <h2 class="section-title">How We Design Your Product</h2>
+    <p class="section-desc" style="margin:0 auto">Our structured 5-step design process ensures every project is delivered on time with full transparency, collaboration, and zero surprises.</p>
+  </div>
+  <div class="uiux-process-grid">
+    <div class="uiux-process-step">
+      <div class="uiux-step-num">1</div>
+      <div class="uiux-step-title">Discovery &amp; Research</div>
+      <div class="uiux-step-desc">We deep-dive into your business, users, competitors, and goals to define the design direction and success metrics.</div>
+    </div>
+    <div class="uiux-process-step">
+      <div class="uiux-step-num">2</div>
+      <div class="uiux-step-title">Wireframes &amp; IA</div>
+      <div class="uiux-step-desc">Information architecture, user flows, and low-fidelity wireframes are built and approved before any visual design begins.</div>
+    </div>
+    <div class="uiux-process-step">
+      <div class="uiux-step-num">3</div>
+      <div class="uiux-step-title">Visual UI Design</div>
+      <div class="uiux-step-desc">High-fidelity, brand-aligned screen designs with full typography, colour, component library, and micro-interactions.</div>
+    </div>
+    <div class="uiux-process-step">
+      <div class="uiux-step-num">4</div>
+      <div class="uiux-step-title">Prototype &amp; Testing</div>
+      <div class="uiux-step-desc">Fully clickable prototypes are built in Figma and tested with real users to validate flows and identify friction points.</div>
+    </div>
+    <div class="uiux-process-step">
+      <div class="uiux-step-num">5</div>
+      <div class="uiux-step-title">Handoff &amp; Support</div>
+      <div class="uiux-step-desc">Design assets, specs, and style guides are handed to your dev team with full annotation and post-handoff support.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="uiux-portfolio" id="uiux-portfolio">
+  <div style="text-align:center;max-width:760px;margin:0 auto">
+    <div class="section-tag">OUR WORK</div>
+    <h2 class="section-title">Recent Design Projects</h2>
+    <p class="section-desc" style="margin:0 auto">A selection of UI/UX and graphic design work delivered for startups, SMEs, and enterprise brands across Bangalore and India.</p>
+  </div>
+  <div class="uiux-portfolio-grid">
+    <div class="uiux-port-card">
+      <div class="uiux-port-thumb uiux-pt-1">
+        <div class="uiux-port-mockup">🛍️</div>
+        <div class="uiux-port-badge">E-Commerce</div>
+      </div>
+      <div class="uiux-port-info">
+        <div class="uiux-port-type">UI/UX Design</div>
+        <div class="uiux-port-title">Fashion Store App Redesign</div>
+        <div class="uiux-port-desc">Full mobile app redesign for a Bangalore fashion brand — improved checkout conversion by 62% post-launch.</div>
+      </div>
+    </div>
+    <div class="uiux-port-card">
+      <div class="uiux-port-thumb uiux-pt-2">
+        <div class="uiux-port-mockup">🏥</div>
+        <div class="uiux-port-badge">HealthTech</div>
+      </div>
+      <div class="uiux-port-info">
+        <div class="uiux-port-type">Product Design</div>
+        <div class="uiux-port-title">Doctor Booking Platform</div>
+        <div class="uiux-port-desc">End-to-end UX for a healthcare appointment platform — reduced booking drop-offs by 47% with simplified flows.</div>
+      </div>
+    </div>
+    <div class="uiux-port-card">
+      <div class="uiux-port-thumb uiux-pt-3">
+        <div class="uiux-port-mockup">🏦</div>
+        <div class="uiux-port-badge">FinTech</div>
+      </div>
+      <div class="uiux-port-info">
+        <div class="uiux-port-type">Dashboard Design</div>
+        <div class="uiux-port-title">Finance Analytics Dashboard</div>
+        <div class="uiux-port-desc">Complex data visualisation dashboard designed for a fintech startup — clean, intuitive, and loved by users.</div>
+      </div>
+    </div>
+    <div class="uiux-port-card">
+      <div class="uiux-port-thumb uiux-pt-4">
+        <div class="uiux-port-mockup">🏗️</div>
+        <div class="uiux-port-badge">Real Estate</div>
+      </div>
+      <div class="uiux-port-info">
+        <div class="uiux-port-type">Brand Identity</div>
+        <div class="uiux-port-title">Real Estate Brand Overhaul</div>
+        <div class="uiux-port-desc">Complete brand identity — logo, colour system, typography, stationery, and digital marketing templates.</div>
+      </div>
+    </div>
+    <div class="uiux-port-card">
+      <div class="uiux-port-thumb uiux-pt-5">
+        <div class="uiux-port-mockup">📚</div>
+        <div class="uiux-port-badge">EdTech</div>
+      </div>
+      <div class="uiux-port-info">
+        <div class="uiux-port-type">Web UI Design</div>
+        <div class="uiux-port-title">Online Learning Platform</div>
+        <div class="uiux-port-desc">Responsive web UI for an EdTech platform — course pages, learner dashboard, and instructor portal designed in Figma.</div>
+      </div>
+    </div>
+    <div class="uiux-port-card">
+      <div class="uiux-port-thumb uiux-pt-6">
+        <div class="uiux-port-mockup">🍽️</div>
+        <div class="uiux-port-badge">Food &amp; Beverage</div>
+      </div>
+      <div class="uiux-port-info">
+        <div class="uiux-port-type">Graphic Design</div>
+        <div class="uiux-port-title">Restaurant Visual Identity</div>
+        <div class="uiux-port-desc">Menu design, packaging, social media templates, and interior signage for a multi-outlet restaurant chain in Bangalore.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="uiux-why">
+  <div style="text-align:center;max-width:760px;margin:0 auto">
+    <div class="section-tag">WHY FLUX DIGITAL DESIGN</div>
+    <h2 class="section-title">What Sets Our Design Team Apart</h2>
+    <p class="section-desc" style="margin:0 auto">We don't just make things look pretty — we design with purpose, backed by research, tested with users, and built to deliver measurable business results.</p>
+  </div>
+  <div class="uiux-why-grid">
+    <div class="uiux-why-card">
+      <div class="uiux-why-num">01</div>
+      <div class="uiux-why-title">Research-Driven Design</div>
+      <div class="uiux-why-desc">Every design decision is grounded in user research, data analysis, and business goals — not guesswork. We validate before we ship.</div>
+    </div>
+    <div class="uiux-why-card">
+      <div class="uiux-why-num">02</div>
+      <div class="uiux-why-title">Conversion-Focused UX</div>
+      <div class="uiux-why-desc">Our UX process is designed to remove friction, reduce bounce rates, and guide users toward the actions that grow your business.</div>
+    </div>
+    <div class="uiux-why-card">
+      <div class="uiux-why-num">03</div>
+      <div class="uiux-why-title">Pixel-Perfect Execution</div>
+      <div class="uiux-why-desc">We deliver fully annotated, developer-ready design files in Figma with component libraries, style guides, and spacing documentation.</div>
+    </div>
+    <div class="uiux-why-card">
+      <div class="uiux-why-num">04</div>
+      <div class="uiux-why-title">Fast Turnaround Times</div>
+      <div class="uiux-why-desc">We move fast without sacrificing quality. Most projects get first design concepts within 3–5 business days with clear milestone delivery.</div>
+    </div>
+    <div class="uiux-why-card">
+      <div class="uiux-why-num">05</div>
+      <div class="uiux-why-title">Unlimited Revisions Policy</div>
+      <div class="uiux-why-desc">We work until you're 100% satisfied. Our collaborative review process means no design is marked done until you love every screen.</div>
+    </div>
+    <div class="uiux-why-card">
+      <div class="uiux-why-num">06</div>
+      <div class="uiux-why-title">Full Brand Consistency</div>
+      <div class="uiux-why-desc">Every design element follows your brand guidelines — colours, fonts, tone, and visual language stay consistent across every touchpoint.</div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<div class="uiux-results">
+  <div class="uiux-results-header">
+    <h2>Design Results That Speak for Themselves</h2>
+    <p>Measurable improvements our clients experienced after we redesigned their digital products and brand assets.</p>
+  </div>
+  <div class="uiux-results-grid">
+    <div class="uiux-result-card"><div class="uiux-result-icon">🎨</div><div class="uiux-result-value">150+</div><div class="uiux-result-label">Projects Delivered</div></div>
+    <div class="uiux-result-card"><div class="uiux-result-icon">📉</div><div class="uiux-result-value">40%</div><div class="uiux-result-label">Avg. Bounce Rate Drop</div></div>
+    <div class="uiux-result-card"><div class="uiux-result-icon">📈</div><div class="uiux-result-value">3x</div><div class="uiux-result-label">Avg. Conversion Uplift</div></div>
+    <div class="uiux-result-card"><div class="uiux-result-icon">⭐</div><div class="uiux-result-value">98%</div><div class="uiux-result-label">Client Satisfaction Rate</div></div>
+  </div>
+</div>
+
+<!-- PRICING -->
+<section class="uiux-pricing">
+  <div style="text-align:center;max-width:760px;margin:0 auto">
+    <div class="section-tag">PRICING PLANS</div>
+    <h2 class="section-title">UI/UX &amp; Design Packages</h2>
+    <p class="section-desc" style="margin:0 auto">Transparent, project-based pricing for every design need. All packages include unlimited revisions, Figma source files, and post-delivery support.</p>
+  </div>
+  <div class="uiux-pricing-grid pricing-grid">
+    <div class="price-card">
+      <div class="price-name">Brand Starter</div>
+      <div class="price-amount">₹18K <small>one-time</small></div>
+      <div class="price-desc">Perfect for startups needing a professional brand identity and basic digital design assets to launch confidently.</div>
+      <div class="price-features">
+        <div class="price-feature"><i class="fas fa-check"></i> Logo Design (3 concepts)</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Brand Colour Palette &amp; Typography</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Business Card Design</div>
+        <div class="price-feature"><i class="fas fa-check"></i> 5 Social Media Templates</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Brand Guidelines Document</div>
+        <div class="price-feature"><i class="fas fa-check"></i> All Source Files Included</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Delivered in 5–7 Days</div>
+      </div>
+      <button class="price-btn" onclick="showPage('contact')">Get Started</button>
+    </div>
+    <div class="price-card popular">
+      <div class="popular-badge">Most Popular</div>
+      <div class="price-name">UI/UX Design</div>
+      <div class="price-amount">₹45K <small>one-time</small></div>
+      <div class="price-desc">Full UI/UX design for your website or app — from research and wireframes to pixel-perfect final screens in Figma.</div>
+      <div class="price-features">
+        <div class="price-feature"><i class="fas fa-check"></i> UX Research &amp; User Personas</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Wireframes &amp; User Flow Mapping</div>
+        <div class="price-feature"><i class="fas fa-check"></i> High-Fidelity UI Design (up to 15 screens)</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Interactive Figma Prototype</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Design System &amp; Component Library</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Developer Handoff with Specs</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Unlimited Revisions</div>
+        <div class="price-feature"><i class="fas fa-check"></i> 30-Day Post-Delivery Support</div>
+      </div>
+      <button class="price-btn" onclick="showPage('contact')">Get Started</button>
+    </div>
+    <div class="price-card">
+      <div class="price-name">Full Product Design</div>
+      <div class="price-amount">₹95K <small>one-time</small></div>
+      <div class="price-desc">End-to-end design for complex web platforms, mobile apps, or SaaS products that require deep UX strategy and full design systems.</div>
+      <div class="price-features">
+        <div class="price-feature"><i class="fas fa-check"></i> Full UX Strategy &amp; Competitive Audit</div>
+        <div class="price-feature"><i class="fas fa-check"></i> 25+ Screen UI Design</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Mobile + Desktop Responsive Design</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Full Design System (tokens, components)</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Usability Testing &amp; Iteration</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Motion &amp; Micro-Interaction Design</div>
+        <div class="price-feature"><i class="fas fa-check"></i> Brand Identity Included</div>
+        <div class="price-feature"><i class="fas fa-check"></i> 60-Day Post-Delivery Support</div>
+      </div>
+      <button class="price-btn" onclick="showPage('contact')">Get Started</button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="uiux-cta">
+  <h2>Ready to Create Something Beautiful?</h2>
+  <p>Get a free design consultation and see how we can transform your brand or product into a design that users love and converts brilliantly.</p>
+  <button class="btn-primary" style="background:linear-gradient(135deg,#ec4899,#8b5cf6);box-shadow:0 6px 25px rgba(236,72,153,0.4);margin:0 auto;position:relative;z-index:2" onclick="showPage('contact')">Book Free Design Consultation →</button>
+</div>
+
+</div><!-- /page-uiux -->
+
+
 <!-- ====== FLOATING WHATSAPP ====== -->
 <div class="floating-contact" id="floatingContact">
   <a href="https://wa.me/918870156021" class="contact-box" target="_blank" rel="noopener noreferrer">
@@ -2127,7 +2542,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
         <a href="/pay-per-click" onclick="showPage('ppc')">Google Ads</a>
         <a href="/social-media-marketing#smm-pricing" onclick="showPage('smm','smm-pricing')">Meta Ads</a>
         <a href="/social-media-marketing" onclick="showPage('smm')">Social Media Marketing</a>
-        <a href="/web-design-development#webdev-services" onclick="showPage('webdev','webdev-services')">UI/UX Design</a>
+        <a href="/ui-ux-graphic-design" onclick="showPage('uiux')">UI/UX Design</a>
         <a href="/web-design-development" onclick="showPage('webdev')">Website Development</a>
       </div>
     </div>
@@ -2141,7 +2556,7 @@ const websiteMarkup = String.raw`<!-- ====== SHARED NAVBAR ====== -->
 <!-- ====== SCRIPTS ====== -->`;
 
 type FluxWebsiteProps = {
-  initialPage?: "home" | "seo" | "digital" | "ppc" | "smm" | "webdev" | "about" | "contact";
+  initialPage?: "home" | "seo" | "digital" | "ppc" | "smm" | "webdev" | "uiux" | "about" | "contact";
 };
 
 export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) {
@@ -2157,7 +2572,8 @@ export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) 
     .replace('<div id="page-smm" class="page">', `<div id="page-smm" class="page${initialPage === "smm" ? " active" : ""}">`)
     .replace('<div id="page-webdev" class="page">', `<div id="page-webdev" class="page${initialPage === "webdev" ? " active" : ""}">`)
     .replace('<div id="page-about" class="page">', `<div id="page-about" class="page${initialPage === "about" ? " active" : ""}">`)
-    .replace('<div id="page-contact" class="page">', `<div id="page-contact" class="page${initialPage === "contact" ? " active" : ""}">`);
+    .replace('<div id="page-contact" class="page">', `<div id="page-contact" class="page${initialPage === "contact" ? " active" : ""}">`)
+    .replace('<div id="page-uiux" class="page">', `<div id="page-uiux" class="page${initialPage === "uiux" ? " active" : ""}">`);
 
   useEffect(() => {
     const websiteRoot = websiteRef.current;
@@ -2216,6 +2632,7 @@ export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) 
         ppc: "/pay-per-click",
         smm: "/social-media-marketing",
         webdev: "/web-design-development",
+        uiux: "/ui-ux-graphic-design",
         about: "/about",
         contact: "/contact",
       };
@@ -2312,7 +2729,7 @@ export default function FluxWebsite({ initialPage = "home" }: FluxWebsiteProps) 
     };
 
     const revealTargets = websiteRoot?.querySelectorAll<HTMLElement>(
-      "section, .service-card, .why-card, .testimonial-card, .faq-item, .price-card, .seo-svc-card, .dm-svc-card, .dm-why-card, .ppc-svc-card, .ppc-process-step, .ppc-case-card, .ppc-platform-item, .ppc-faq-item, .smm-svc-card, .webdev-svc-card, .webdev-tech-card, .about-value-card, .team-card, .contact-info-card, .contact-faq-item"
+      "section, .service-card, .why-card, .testimonial-card, .faq-item, .price-card, .seo-svc-card, .dm-svc-card, .dm-why-card, .ppc-svc-card, .ppc-process-step, .ppc-case-card, .ppc-platform-item, .ppc-faq-item, .smm-svc-card, .webdev-svc-card, .webdev-tech-card, .about-value-card, .team-card, .contact-info-card, .contact-faq-item, .uiux-svc-card, .uiux-tool-card, .uiux-process-step, .uiux-port-card, .uiux-why-card, .uiux-result-card"
     );
     revealTargets?.forEach((item) => item.classList.add("reveal"));
 
