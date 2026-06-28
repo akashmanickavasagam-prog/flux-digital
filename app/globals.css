@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+.gtm-noscript {
+  display: none;
+  visibility: hidden;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
